@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.godigit.com%2Fmotor-insurance%2Ftwo-wheeler-insurance&psig=AOvVaw1EhGkrKmeXWP_8vn436ExH&ust=1674817298858000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDGyeGK5fwCFQAAAAAdAAAAABAE);
+
+}
+
+.div-1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.search{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+
+.container-form{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto 0 0 0;
+    margin-top: 100px;
+    left: 450px;
+    /* text-align: right; */
+}
+
+.align-right{
+    text-align: right;
+}
+
+
+
+
+.container-links{
+    width: 100%;
+    height: 80px;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    /* background: #0c111b; */
+    z-index: 0;
+    display: flex;
+}
+
+.nav-links{
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+
+}
+.nav-items{
+    padding: 10px;
+}
+
